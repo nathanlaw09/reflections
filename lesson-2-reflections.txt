@@ -1,12 +1,17 @@
-What happens when you initialize a repository? Why do you need to do it?
+1.What happens when you initialize a repository? Why do you need to do it?
 
 	Git intializes the repository, says "initial commit" and 	shows the untracked files in the repository. You need to 	initialize the repository so that you can have a place 		to track your project.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?	
 	
 	Staging area is Git's spot where you place files you 			want to commit to the repository, working directory is 			the folder where all your files you're working on are 			stored on your computer. The respository is where Git 			holds the files that are being tracked for a project.
 	
 	The staging area's value is that is allows you to see 			what files/changes you currently have selected to save 			to a commit before you do it. This is so you can alter 			what you are committing if you want before you actually 		do it.   
 
-How can you use the staging area to make sure you have one commit per logical change? 
-	Add a file to the staging area when you have made your 		reasonably-sized change before moving on to add more 			code changes in the same file or some other file. This 		will help keep commits you will later make from being 		more than one logical change.
+3.How can you use the staging area to make sure you have one commit per logical change? 
+
+	Add a file to the staging area when you have made your 			reasonably-sized change before moving on to add more 			code changes in the same file or some other file. This 			will help keep commits you will later make from being 			more than one logical change.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Like in the example, when you want to try something new 		and see how it works without affecting the master set of 	code- you could go to the branch and see your commits 			you did. The branch should be titled to let you know to 		look at something specific you did/were trying to do so			you know what to look at in the code if you review it 		        later. 
