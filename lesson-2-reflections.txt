@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	Git intializes the repository, says "initial commit" and 	shows the untracked files 		in the repository. You need to initialize the repository 	so that you can have a place to track your project.
+	Git intializes the repository, says "initial commit" and 	shows the untracked files 		in the 	repository. You need to initialize the repository 		so that you can have a place to track your project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	Staging area is Git's spot where you place files you 		want to commit to the repository, working directory is 		the folder where all your files you're working on are 			stored on your computer. The respository is where Git 		holds the files that are being tracked for a project.
+	
+	The staging area's value is that is allows you to see 	what files/changes you currently have selected to save 	to a commit before you do it. This is so you can alter 	what you are committing if you want before you actually 	do it.   
