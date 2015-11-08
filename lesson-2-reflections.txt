@@ -17,4 +17,8 @@
 	Like in the example, when you want to try something new 		and see how it works without affecting the master set of 	code- you could go to the branch and see your commits 			you did. The branch should be titled to let you know to 		look at something specific you did/were trying to do so			you know what to look at in the code if you review it 		        later.
 5.How do the diagrams help you visualize the branch structure?
 	
-	They show where branches originate and when. The 	diagrams also illustrate the concept of reachability 	very well. 
+	They show where branches originate and when. The 		diagrams also illustrate the concept of reachability 			very well.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	One merged branch with the original data the 2 have 			in the data that was added separately, minus the data 		from the original data that was deleted. It is 		represented such that history of commits makes sense and 	you can tell where the branches merged & what the 	parents were.    
