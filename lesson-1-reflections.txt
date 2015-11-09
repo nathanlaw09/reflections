@@ -1,22 +1,44 @@
+1. Using diff to Find Bugs
+
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     
 
-	It's an easy way to find errors/typos between different 	versions of files so that you can save a lot of time and 	headaches & create working code!
+-It's an easy way to find errors/typos between different 	versions of files so that you can save a lot of time and 	headaches & create working code!
+
+2. Using History for Efficiency
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-	Being able to go back to an earlier file state if you 		goof up could be very handy. It could be nice to compare 	what works/doesnt work, and what different things looked 	like and what output was created.
+-Being able to go back to an earlier file state if you 		goof up could be very handy. It could be nice to compare 	what works/doesnt work, and what different things looked 	like and what output was created.
+
+3. Manual Commits
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-	Choosing your own time to save commits gives the 			to select when it is important to commit & a 		rationale/grouping to the commit. auto-saving could be 		random.
+
+-Choosing your own time to save commits gives the 			to select when it is important to commit & a 		rationale/grouping to the commit. auto-saving could be 		random.
+
+4. Multi-File Commits
+
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-	Because many projects require changes to multiple files 		to implement one idea. Google docs isn't about writing 	code which takes multiple files to make one thing 	happen. Google docs is a word document or a 	presentation...etc.
+
+-Because many projects require changes to multiple files 		to implement one idea. Google docs isn't about writing 	code which takes multiple files to make one thing 	happen. Google docs is a word document or a presentation...etc.
+
+5. Using Git to View History
 
 How can you use the commands git log and git diff to view the history of files?
-	Git log shows the commits (saves) that have been made 		over time and git diff shows the differences between 2 		commits.
+
+-Git log shows the commits (saves) that have been made 		over time and git diff shows the differences between 2 		commits.
+
+6.Confidence from Version Control
+
 How might using version control make you more confident to make changes that could break something?
-	You know that if you goof up you can always go back and 		find what did it. (added or deleted lines of code)
+
+-You know that if you goof up you can always go back and 		find the cause of the break and fix it.
+
+7. How Do You Want to Use Git?
+
 Now that you have your workspace set up, what do you want to try using Git for?
-	For my next Front-End Web Developer classes. I can see 	how Git could be lovely to use- im just worried about 	differences in setup/operation between OSX/Windows and 	Windows reality vs. what the videos show. It took a lot 	of doing to setup Git & have sublime text work. 
+
+-For my next Front-End Web Developer classes and personal projects. I can see how Git could be lovely to use- at the moment I'm worried about differences in setup/operation between OSX/Windows and my PC reality vs. what the videos show. It took a fair amount of effort to setup Git & have sublime text work due to errors. 
