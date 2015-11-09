@@ -1,28 +1,43 @@
-1.What happens when you initialize a repository? Why do you need to do it?
+1. Initializing a Repository
 
-	Git intializes the repository, says "initial commit" and 	shows the untracked files in the repository. You need to 	initialize the repository so that you can have a place 		to track your project.
+What happens when you initialize a repository? Why do you need to do it?
 
-2.How is the staging area different from the working directory and the repository? What value do you think it offers?	
+-Git intializes the repository, says "initial commit" and shows the untracked files in the repository. You need to initialize the repository so that you can have a place 		to track your project.
+
+2. Staging Area
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?	
 	
-	Staging area is Git's spot where you place files you 			want to commit to the repository, working directory is 			the folder where all your files you're working on are 			stored on your computer. The respository is where Git 			holds the files that are being tracked for a project.
+-Staging area is Git's spot where you place files you 		want to commit to the repository, working directory is 		the folder where all your files you're working on are 		stored on your computer. The respository is where Git 		holds the files that are being tracked for a project.
+The staging area's value is that is allows you to see 		what files/changes you currently have selected to save 		to a commit before you do it. This is so you can alter 		what you are committing if you want before you actually 	do it.   
+
+3. Commit Size
+
+How can you use the staging area to make sure you have one commit per logical change? 
+
+-Add a file to the staging area when you have made your 		reasonably-sized change before moving on to add more 		code changes in the same file or some other file. This 		will help keep commits you will later make from being 		more than one logical change.
+
+4. When to Use Branches
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-Like in the example, when you want to try something new 	and see how it works without affecting the master set of 	code- you could go to the branch and see your commits 		you made. The branch should be titled to let you know to 	look at something specific you did/were trying to do so		you know what to look at in the code if you review it 		later.
+
+5. Visualizing with Diagrams
+
+How do the diagrams help you visualize the branch structure?
 	
-	The staging area's value is that is allows you to see 			what files/changes you currently have selected to save 			to a commit before you do it. This is so you can alter 			what you are committing if you want before you actually 		do it.   
+-They show where branches originate and when (parents...etc.).
+The diagrams also illustrate the concept of reachability very well.
 
-3.How can you use the staging area to make sure you have one commit per logical change? 
+6. Merging Two Branches
 
-	Add a file to the staging area when you have made your 			reasonably-sized change before moving on to add more 			code changes in the same file or some other file. This 			will help keep commits you will later make from being 			more than one logical change.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-One merged branch with the original data the 2 have 		in the data that was added separately, minus the data 		from the original data that was deleted. It is 	represented such that history of commits makes sense and	you can tell where the branches merged & what the parents were.
 
-	Like in the example, when you want to try something new 		and see how it works without affecting the master set of 	code- you could go to the branch and see your commits 			you did. The branch should be titled to let you know to 		look at something specific you did/were trying to do so			you know what to look at in the code if you review it 		        later.
-5.How do the diagrams help you visualize the branch structure?
-	
-	They show where branches originate and when. The 		diagrams also illustrate the concept of reachability 			very well.
+7. Automatic vs. Manual Merging
 
-6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-	One merged branch with the original data the 2 have 			in the data that was added separately, minus the data 			from the original data that was deleted. It is 	represented such that history of commits makes sense and 		you can tell where the branches merged & what the 			parents were.
-
-7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-	Automatic merging will save time, do most of the work, 		show you where conflicts are, and leave a record of the 		activity. I can't think of any real cons besides 		potentially messing up a Git command and doing something 	you didn't want or losing information. 
+-Automatic merging will save time, do most of the work, 		show you where conflicts are, and leave a record of the 		activity. I can't think of any real cons besides 		potentially messing up a Git command and doing something 	you didn't want or losing information. 
