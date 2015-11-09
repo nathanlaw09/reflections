@@ -21,4 +21,8 @@
 
 6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-	One merged branch with the original data the 2 have 			in the data that was added separately, minus the data 		from the original data that was deleted. It is 		represented such that history of commits makes sense and 	you can tell where the branches merged & what the 	parents were.    
+	One merged branch with the original data the 2 have 			in the data that was added separately, minus the data 			from the original data that was deleted. It is 	represented such that history of commits makes sense and 		you can tell where the branches merged & what the 			parents were.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging will save time, do most of the work, 		show you where conflicts are, and leave a record of the 		activity. I can't think of any real cons besides 		potentially messing up a Git command and doing something 	you didn't want or losing information. 
