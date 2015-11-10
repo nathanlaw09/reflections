@@ -29,3 +29,9 @@ You would use a fork to simplify the process of cloning someone else's public re
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 -You will be able to see the latest updates to the remote and work with/on them locally. This could be very handy if you are going to be away from internet for a while and still want to work on the project.
+
+5. Collaboration using Git and GitHub
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+-I'm not certain, maybe one of the other version-control programs such as Subversion have a similar system (I'm not familiar). Or maybe you would trying using email or Google Docs. Regardless, it seems to me that it would be more difficult than GitHub because GitHub shows changes between files, sends an email alert that a pull request has been made, allows comments on requests,etc. This looks to be a very simple, nice way of organizing collaboration. 
