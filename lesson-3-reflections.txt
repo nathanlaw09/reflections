@@ -35,3 +35,9 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 -I'm not certain, maybe one of the other version-control programs such as Subversion have a similar system (I'm not familiar). Or maybe you would trying using email or Google Docs. Regardless, it seems to me that it would be more difficult than GitHub because GitHub shows changes between files, sends an email alert that a pull request has been made, allows comments on requests,etc. This looks to be a very simple, nice way of organizing collaboration. 
+
+6. When to use a separate branch
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+-To keep things separate from the master until you are sure it will work and is ready to be a part of the master. It also makes sense to get feeback on changes to a feature/project by putting a branch on GitHub & making sure it is how you and your collaborators want it before updating the master. 
