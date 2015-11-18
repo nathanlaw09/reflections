@@ -1,15 +1,9 @@
 1. Using a remote repository
 
-
-
 When would you want to use a remote repository rather than keeping all your work local?
 
-
-
 -When you are collaborating with others on a project or want to share a project for feedback. 
-You might also want to use a remote repository in order to have your repository saved somewhere
-in addition to your local computer.
-
+You might also want to use a remote repository in order to have your repository saved somewhere in addition to your local computer.
 
 2. Manual vs. automatic pull
 
@@ -21,8 +15,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
--Fork: cloned repository on GitHub (so you can keep a copy of a repository, make personal changes to it, and give credit to original creator). Clone: copy of a repository that is created on your local PC. Branch: In a repository, offshoot of the master that lets you explore, create, or alter without affecting the master (you can later merge with the master if desired).
-You would use a fork to simplify the process of cloning someone else's public repository while giving them credit at the same time. You clone a repository to get a copy of it on your local machine. Use a branch to work on a new feature, idea, w/e separate from (and without affecting) the master of a repository. 
+-Fork: cloned repository on GitHub (so you can keep a copy of a repository, make personal changes to it, and give credit to original creator). Clone: copy of a repository that is created on your local PC. Branch: In a repository, offshoot of the master that lets you explore, create, or alter without affecting the master (you can later merge with the master if desired). You would use a fork to simplify the process of cloning someone else's public repository while giving them credit at the same time. You clone a repository to get a copy of it on your local machine. Use a branch to work on a new feature, idea, w/e separate from (and without affecting) the master of a repository. 
 
 4. Local copies of remote branches
 
