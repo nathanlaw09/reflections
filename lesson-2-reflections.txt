@@ -20,7 +20,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
--Like in the example, when you want to try something new and see how it works without affecting the master set of code- you could go to the branch and see your commits you made. The branch should be titled to let you know to look at something specific you did/were trying to do so you know what to look at in the code if you review it later.
+-Like in the example, when you want to try something new and see how it works without affecting the master set of code- you could go to the branch and see your commits you made. The branch should be titled to let you know to look at something specific you did/were trying to do so you can more easily find it in the code if you review it later.
 
 5. Visualizing with Diagrams
 
