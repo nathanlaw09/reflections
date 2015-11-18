@@ -1,15 +1,9 @@
 1. Using a remote repository
 
-
-
 When would you want to use a remote repository rather than keeping all your work local?
 
-
-
 -When you are collaborating with others on a project or want to share a project for feedback. 
-You might also want to use a remote repository in order to have your repository saved somewhere
-in addition to your local computer.
-
+You might also want to use a remote repository in order to have your repository saved somewhere in addition to your local computer so you can access it from another PC or not lose your work if something happens to your local machine.
 
 2. Manual vs. automatic pull
 
@@ -21,8 +15,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
--Fork: cloned repository on GitHub (so you can keep a copy of a repository, make personal changes to it, and give credit to original creator). Clone: copy of a repository that is created on your local PC. Branch: In a repository, offshoot of the master that lets you explore, create, or alter without affecting the master (you can later merge with the master if desired).
-You would use a fork to simplify the process of cloning someone else's public repository while giving them credit at the same time. You clone a repository to get a copy of it on your local machine. Use a branch to work on a new feature, idea, w/e separate from (and without affecting) the master of a repository. 
+-Fork: cloned repository on GitHub (so you can keep a copy of a repository, make personal changes to it, and give credit to original creator). Clone: copy of a repository that is created on your local PC. Branch: In a repository, offshoot of the master that lets you explore, create, or alter without affecting the master (you can later merge with the master if desired). You would use a fork to simplify the process of cloning someone else's public repository while giving them credit at the same time. You clone a repository to get a copy of it on your local machine. Use a branch to work on a new feature, idea, w/e separate from (and without affecting) the master of a repository. 
 
 4. Local copies of remote branches
 
@@ -34,10 +27,10 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
--I'm not certain, maybe one of the other version-control programs such as Subversion have a similar system (I'm not familiar). Or maybe you would trying using email or Google Docs. Regardless, it seems to me that it would be more difficult than GitHub because GitHub shows changes between files, sends an email alert that a pull request has been made, allows comments on requests,etc. This looks to be a very simple, nice way of organizing collaboration. 
+-I'm not certain, maybe one of the other version-control programs such as Subversion has a similar system (I'm not familiar). Or maybe you would trying using email and/or Google Docs. Regardless, it seems to me that it would be more difficult than Git/GitHub because they show changes between files, automatically send an email alert that a pull request has been made, allow comments on requests,etc. This looks to be a very simple, nice way of organizing collaboration once you learn how to use it. 
 
 6. When to use a separate branch
 
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
--To keep things separate from the master until you are sure it will work and is ready to be a part of the master. It also makes sense to get feeback on changes to a feature/project by putting a branch on GitHub & making sure it is how you and your collaborators want it before updating the master. 
+-To keep things separate from the master until you are sure it will work and is ready to be a part of the master. It also makes sense to get feeback on changes to a feature/project by putting a branch on GitHub & making sure it is how you and your collaborators want it before updating the master. As to making changes directly in the master...I don't think there would be too many reasons to do that, other than maybe if it was for a very small project or you were making very small changes to something that wouldn't have potentially wide-spread effects.
