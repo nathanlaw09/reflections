@@ -27,7 +27,7 @@ Why do you think some version control systems, like Git, allow saving multiple f
 
 How can you use the commands git log and git diff to view the history of files?
 
--Git log shows the commits (saves) that have been made over time and git diff shows the differences between 2 commits.
+-Git log shows the commits (saves) that have been made over time and git diff shows the differences between two things (for lack of a better term) whether that's two commits, two branches, a local and a remote version of a branch...etc.
 
 6.Confidence from Version Control
 
