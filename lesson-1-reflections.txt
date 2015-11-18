@@ -39,4 +39,4 @@ How might using version control make you more confident to make changes that cou
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
--For my next Front-End Web Developer classes and personal projects. I can see how Git could be lovely to use- at the moment I'm worried about differences in setup/operation between OSX/Windows and my PC reality vs. what the videos show. It took a fair amount of effort to setup Git & have sublime text work due to errors. 
+-For my next Front-End Web Developer classes and personal projects. That's why I'm taking this class so early- I think it will be very useful both personally and professionally to become proficient using Git ASAP. 
