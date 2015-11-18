@@ -21,7 +21,7 @@ What do you think are the pros and cons of manually choosing when to create a co
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
--Because many projects require changes to multiple files to implement one idea. Google docs isn't about writing code which takes multiple files to make one thing happen. Google docs is a word document or a presentation...etc.
+-Because many projects require changes to multiple files to implement one idea. Google docs isn't about writing code which takes multiple files to make one thing happen. Google docs is for storing stand-alone documents like a word document or a presentation...etc.
 
 5. Using Git to View History
 
